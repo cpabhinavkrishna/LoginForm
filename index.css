@@ -1,0 +1,185 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(to top right, #33ccff 2%, #00ffcc 78%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-image img {
+    width: 330px;
+}
+
+.form-page {
+    width: 375px;
+    height: 500px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.form-page h2 {
+    font-weight: 900;
+    margin-top: 10px;
+
+}
+
+.form-page p {
+    margin-top: 10px;
+    font-weight: 900;
+    
+
+}
+
+.form-page p a {
+    text-decoration: none;
+    color: rgb(140, 33, 33);
+}
+
+.g-box {
+    display: flex;
+    border: 1px solid rgb(140, 33, 33);
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.g-box img {
+    width: 30px;
+}
+
+.g-box h4 {
+    text-align: center;
+    padding: 10px;
+}
+.or{
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.form-section {
+    text-align: left;
+    margin-top: 10px;
+    padding: 20px;
+    
+
+}
+
+.labelclass {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 15px;
+
+
+}
+
+.inp{
+    margin-top: 15px;
+    border: 1px solid rgb(140, 33, 33);
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.btn{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(140, 33, 33) ;
+    color: aliceblue;
+    background-color:  rgb(140, 33, 33);
+    cursor: pointer;
+
+}
+.btn:hover {
+    color: aliceblue;
+    background-color: rgb(158, 36, 36);
+}
+
+.checkboxcls {
+    margin-top: 20px;
+    
+}
+.spn {
+    padding: 0px 3px;
+}
+
+.spn a {
+    text-decoration: none;
+    color:rgb(140, 33, 33) ;
+    font-weight: 900;
+}
+
+
+/* Media Queries for medium size devices  */
+
+
+@media screen and (max-width: 640px){
+    .container{
+        flex-direction: column;
+        height: 100vh;
+        height: fit-content;
+
+    }
+    .form-page{
+      width: fit-content;
+      height: fit-content;
+      
+    }
+    .feature-image img {
+        width: 300px;
+        height: 325px;
+    }
+    
+    .or{
+        margin-top: 5px;
+    }
+    .form-section{
+        margin-top: 2px;
+    }
+    .g-box {
+        margin-top: 2px;
+    }
+    .most{
+        margin-top: 3px;
+    }
+    .form-section{
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+}
+
+
+/* Media Queries for small size devices  */
+
+
+@media screen and (max-width: 380px) {
+    .container {
+        height: 100vh;
+    
+    }
+    .feature-image img {
+        display: none;
+    }
+    
+}
